@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "async": "^1.5.2",
-    "aws-sdk": "^2.2.38",
+    "aws-sdk": "^2.2.39",
     "babel-polyfill": "^6.5.0",
     "debug": "^2.2.0",
     "minimist": "^1.2.0"
