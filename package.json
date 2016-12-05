@@ -22,7 +22,7 @@
     "npm-pack-to-vinyl": "0.0.3",
     "require-dir": "^0.3.1",
     "tape": "^4.6.3",
-    "vinyl-s3": "^0.3.0"
+    "vinyl-s3": "^0.3.1"
   },
   "homepage": "https://github.com/nak2k/node-npm-install-from-s3",
   "keywords": [
