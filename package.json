@@ -10,7 +10,7 @@
     "async": "^2.1.4",
     "aws-sdk": "^2.7.9",
     "babel-polyfill": "^6.16.0",
-    "debug": "^2.3.3",
+    "debug": "^2.4.5",
     "minimist": "^1.2.0"
   },
   "devDependencies": {
