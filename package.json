@@ -7,22 +7,19 @@
     "url": "https://github.com/nak2k/node-npm-install-from-s3/issues"
   },
   "dependencies": {
-    "async": "^2.1.4",
-    "aws-sdk": "^2.7.9",
-    "babel-polyfill": "^6.16.0",
-    "debug": "^2.3.3",
+    "async": "^2.4.1",
+    "aws-sdk": "^2.77.0",
+    "debug": "^2.6.8",
     "minimist": "^1.2.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.18.0",
-    "babel-preset-es2015": "^6.18.0",
     "event-stream": "^3.3.4",
     "gulp": "^3.9.1",
-    "gulp-util": "^3.0.7",
+    "gulp-util": "^3.0.8",
     "npm-pack-to-vinyl": "0.0.3",
-    "require-dir": "^0.3.1",
+    "require-dir": "^0.3.2",
     "tape": "^4.6.3",
-    "vinyl-s3": "^0.3.0"
+    "vinyl-s3": "^0.3.1"
   },
   "homepage": "https://github.com/nak2k/node-npm-install-from-s3",
   "keywords": [
@@ -38,9 +35,7 @@
     "url": "git+https://github.com/nak2k/node-npm-install-from-s3.git"
   },
   "scripts": {
-    "build": "babel --presets es2015 -d lib/ src/",
-    "prepublish": "npm run build",
-    "test": "npm run build && tape test/*.js"
+    "test": "tape test/*.js"
   },
   "files": [
     "README.md",
