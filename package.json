@@ -13,6 +13,7 @@
     "minimist": "^1.2.0"
   },
   "devDependencies": {
+    "eslint": "^4.1.0",
     "event-stream": "^3.3.4",
     "gulp": "^3.9.1",
     "gulp-util": "^3.0.8",
@@ -35,6 +36,7 @@
     "url": "git+https://github.com/nak2k/node-npm-install-from-s3.git"
   },
   "scripts": {
+    "lint": "eslint lib",
     "test": "tape test/*.js"
   },
   "files": [
