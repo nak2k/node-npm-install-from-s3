@@ -14,13 +14,7 @@
   },
   "devDependencies": {
     "eslint": "^4.1.0",
-    "event-stream": "^3.3.4",
-    "gulp": "^3.9.1",
-    "gulp-util": "^3.0.8",
-    "npm-pack-to-vinyl": "0.0.3",
-    "require-dir": "^0.3.2",
-    "tape": "^4.6.3",
-    "vinyl-s3": "^0.3.1"
+    "tape": "^4.6.3"
   },
   "homepage": "https://github.com/nak2k/node-npm-install-from-s3",
   "keywords": [
@@ -37,7 +31,10 @@
   },
   "scripts": {
     "lint": "eslint lib",
-    "test": "tape test/*.js"
+    "make-dummy-package": "cd test/dummy && npm pack",
+    "test": "tape test/*.js",
+    "preupload-dummy-package": "test -z \"$S3_URL\" && echo '$S3_URL must be set' || npm run make-dummy-package",
+    "upload-dummy-package": "aws s3 cp test/dummy/dummy-0.0.1.tgz $S3_URL"
   },
   "files": [
     "README.md",
