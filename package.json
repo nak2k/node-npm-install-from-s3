@@ -32,6 +32,7 @@
   "scripts": {
     "lint": "eslint lib",
     "make-dummy-package": "cd test/dummy && npm pack",
+    "prepare": "npm run lint && npm test",
     "test": "tape test/*.js",
     "preupload-dummy-package": "test -z \"$S3_URL\" && echo '$S3_URL must be set' || npm run make-dummy-package",
     "upload-dummy-package": "aws s3 cp test/dummy/dummy-0.0.1.tgz $S3_URL"
