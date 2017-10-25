@@ -1,5 +1,5 @@
 const test = require('tape');
-const installFromS3 = require('..');
+const { installFromS3 } = require('..');
 
 test('test', t => {
   t.plan(1);
