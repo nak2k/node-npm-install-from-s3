@@ -1,6 +1,6 @@
 {
   "name": "npm-install-from-s3",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "npm install from s3",
   "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
   "bugs": {
@@ -10,6 +10,7 @@
     "aws-sdk": "^2.140.0",
     "debug": "^3.1.0",
     "minimist": "^1.2.0",
+    "npm": "^5.6.0",
     "run-parallel": "^1.1.6"
   },
   "devDependencies": {
