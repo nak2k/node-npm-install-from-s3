@@ -7,15 +7,15 @@
     "url": "https://github.com/nak2k/node-npm-install-from-s3/issues"
   },
   "dependencies": {
-    "aws-sdk": "^2.140.0",
+    "aws-sdk": "^2.189.0",
     "debug": "^3.1.0",
     "minimist": "^1.2.0",
     "npm": "^5.6.0",
     "run-parallel": "^1.1.6"
   },
   "devDependencies": {
-    "eslint": "^4.9.0",
-    "tape": "^4.6.3"
+    "eslint": "^4.17.0",
+    "tape": "^4.8.0"
   },
   "homepage": "https://github.com/nak2k/node-npm-install-from-s3",
   "keywords": [
