@@ -8,9 +8,9 @@
   },
   "dependencies": {
     "aws-sdk": "^2.189.0",
+    "current-npm": "0.0.1",
     "debug": "^3.1.0",
     "minimist": "^1.2.0",
-    "npm": "^5.6.0",
     "run-parallel": "^1.1.6"
   },
   "devDependencies": {
